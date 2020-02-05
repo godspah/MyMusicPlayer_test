@@ -22,15 +22,69 @@ $(function()
 	
 	var songs = [
 	{
-		artist: "2",
-		name: "Bai 2",
+		artist: "Nhật Phong",
+		name: "Yêu Một Người Tổn Thương",
 		url: "Musics/Yeu-Mot-Nguoi-Ton-Thuong-Nhat-Phong.mp3",
 		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
 	},
 	{
-		artist: "3",
-		name: "Bai 3",
+		artist: "Mr.Siro",
+		name: "Cô Đơn Không Muốn Về Nhà",
 		url: "Musics/Co-Don-Khong-Muon-Ve-Nha-Mr-Siro.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Vũ",
+		name: "Lạ Lùng",
+		url: "Musics/La-Lung-Vu.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Bích Phương",
+		name: "Mình Yêu Nhau Đi",
+		url: "Musics/Minh-Yeu-Nhau-Di-Bich-Phuong.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Đông Nhi, Ông Cao Thắng",
+		name: "Ta Là Của Nhau",
+		url: "Musics/TaLaCuaNhau-DongNhiOngCaoThang-4113753.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Đinh Đại Vũ",
+		name: "Mỹ Nhân",
+		url: "Musics/My-Nhan-Dinh-Dai-Vu.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Obito-Seachains",
+		name: "Simple Love",
+		url: "Musics/Simple-Love-Obito-Seachains-Davis.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "OSAD-Shin-Hyun-Woo",
+		name: "Vì Đó Là Em",
+		url: "Musics/Vi-Do-La-Em-OSAD-Shin-Hyun-Woo.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Thanh Hưng",
+		name: "Yêu Nhiều Ghen Nhiều",
+		url: "Musics/Yeu-Nhieu-Ghen-Nhieu-Thanh-Hung.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Quân A.P",
+		name: "You Are My Crush",
+		url: "Musics/You-Are-My-Crush-Quan-A-P-Nguyen-Jenda.mp3",
+		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
+	},
+	{
+		artist: "Bùi Anh Tuấn, Hiền Hồ",
+		name: "Yes I Do",
+		url: "Musics/Cuoi Nhau Di Yes I Do_ - Bui Anh Tuan_ H.mp3",
 		picture: "https://www.google.com/imgres?imgurl=https%3A%2F%2F9mobi.vn%2Fcf%2Fimages%2F2015%2F03%2Fnkk%2Fanh-dep-1.jpg&imgrefurl=https%3A%2F%2F9mobi.vn%2Fanh-dep-2015n.aspx&tbnid=kXUCQiw53rVguM&vet=12ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ..i&docid=co5CvbGKjbMNCM&w=460&h=259&q=anh%20dep&ved=2ahUKEwiH1-zU57rnAhUG4ZQKHZ8CBdQQMygAegUIARDZAQ"
 	}];
 	
