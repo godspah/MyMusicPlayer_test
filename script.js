@@ -20,12 +20,7 @@ $(function()
 	
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
-	var songs = [{
-		artist: "1",
-		name: "Nếu Anh Đi (Cover)",
-		url: "Musics/NeuAnhDi.mp3",
-		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
-	},
+	var songs = [
 	{
 		artist: "2",
 		name: "Bai 2",
